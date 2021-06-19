@@ -16,7 +16,7 @@ public class InteractiveControl {
 
 
         // void method, so it show options to the user
-    public void inputSelection (){
+    public void inputSelection(){ // this must  be directed to Main.(ln 8) interactive control
         System.out.println("How many times you Wish to Print hello world on the screen");
         optionSelected= scanner.nextInt();
 
@@ -25,5 +25,7 @@ public class InteractiveControl {
         for (constantNumber=0;constantNumber<optionSelected;constantNumber++){
         System.out.println("hello world");
     }
+        public int optionSelected() {return inputSelection);
     }
-
+    }
+    }
